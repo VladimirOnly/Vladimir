@@ -1,0 +1,16 @@
+
+.navbar.navbar-5 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f3e5f5');
+}
+.navbar {
+    background-color: #86cfda;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7a7a7a;
+    color: white;
+    text-align: center; }

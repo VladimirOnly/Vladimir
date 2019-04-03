@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="forcv.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-light navbar-1 white">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+            aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+        </ul>
+        <!-- Links -->
+
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+
+    <form id="mainForm" method="post" action="https://actum-form-ulcrunoxba.now.sh/api/submit">
+        <legend>Registration</legend>
+        <div class="form-group input-group">
+ <span>
+      <label for="first">Name</label>
+ <input class="form-control" id="first" type="text" placeholder="Name" required/>
+ </span>
+            <span>
+                 <label for="last">Surname</label>
+ <input class="form-control" id="last" type="text" placeholder="Surname" required/>
+ </span>
+        </div>
+        <input type="date" placeholder="Text input"><br><br>
+        <div class="form-group input-group">
+            <span><label for="email">E-mail</label>
+ <input class="form-control" id="email" type="email" placeholder="name@example.com" required/>
+ </span>
+        </div>
+
+
+        <label class="radio" for="optionsRadios1">Choose a gender<br>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">male</label>
+        <label class="radio">
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">female</label><br>
+
+<span>
+    <label for="children">Choose your number of children:</label>
+        <select class="form-control" id="children">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+</span><br>
+        <button class="btn btn-block btn-primary" type="submit" id="submitButton">Submit</button>
+    </form>
+
+<div class="footer">
+    <p>All rights of this project are reserved.</p>
+</div>
+
+<script src="forcv.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
